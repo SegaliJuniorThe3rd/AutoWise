@@ -1,0 +1,20 @@
+.vehicle-status {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.vehicle-status ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.vehicle-status li {
+    background: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+}

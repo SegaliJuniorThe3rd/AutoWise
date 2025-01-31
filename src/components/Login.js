@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { login } from "../services/api";
 import { useNavigate } from "react-router-dom";
+import "../styles/Login.css";  // Import CSS
 
 const Login = () => {
     const [email, setEmail] = useState("");
@@ -18,7 +19,7 @@ const Login = () => {
     };
 
     return (
-        <div>
+        <div className="login-container">
             <h2>Login</h2>
             <form onSubmit={handleSubmit}>
                 <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
